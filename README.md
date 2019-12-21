@@ -8,7 +8,6 @@ Homebrew HPC is a homebrew tap for HPC applications, which makes installing the 
 - Tap homebrew-hpc: ```brew tap gregavrbancic/hpc```
 - Install HPC packages: ```brew install <package>``` (e.g. ```brew install nordugrid-arc```)
 
-
 ## List of packages
 
 The available packages are:
