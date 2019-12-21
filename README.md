@@ -13,3 +13,11 @@ Homebrew HPC is a homebrew tap for HPC applications, which makes installing the 
 The available packages are:
 
 - [nordugrid-arc](http://www.nordugrid.org/arc/arc6/) :point_right: install with: ```brew install nordugrid-arc```
+
+## Contributing
+
+Feel free to contribute pull requests for additional applications as well as the bug fixes or open issues if you are having trouble using the homebrew formulas. The testing on different OSes is also welcome.
+
+## Disclaimer
+
+I am not an author of the software available via this homebrew tap. Also, the homebrew formulas available in this repository are tested only on Mac OS Catalina and Arch linux.
