@@ -13,6 +13,7 @@ Homebrew HPC is a homebrew tap for HPC applications, which makes installing the 
 The available packages are:
 
 - [nordugrid-arc](http://www.nordugrid.org/arc/arc6/) :point_right: install with: ```brew install nordugrid-arc```
+- [singularity-desktop-beta](https://sylabs.io/singularity-desktop-macos/) :point_right: install with: ```brew cask install singularity-desktop-beta```
 
 ## Contributing
 
