@@ -6,12 +6,12 @@ class NordugridArc < Formula
   sha256 "93a5af2e1e5e767bd17fa0b49ed1f446891e5e7b97b041b0caf523a3cc0633bd"
 
   depends_on "pkg-config" => :build
-  depends_on "gettext" => :build
-  depends_on "glib" => :build
-  depends_on "glibmm" => :build
-  depends_on "globus-toolkit" => :build
-  depends_on "libxml2" => :build
-  depends_on "libxmlsec1" => :build
+  depends_on "gettext"
+  depends_on "glib"
+  depends_on "glibmm"
+  depends_on "globus-toolkit"
+  depends_on "libxml2"
+  depends_on "libxmlsec1"
 
   def install
     ENV.cxx11
