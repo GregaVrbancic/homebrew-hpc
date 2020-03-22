@@ -1,8 +1,9 @@
 class NordugridArc < Formula
   desc "Nordugrid Arc Client"
   homepage "http://www.nordugrid.org/arc/arc6/"
-  url "https://download.nordugrid.org/packages/nordugrid-arc/releases/6.4.1/src/nordugrid-arc-6.4.1.tar.gz"
-  sha256 "41c9fe864e3a28e861460790acab9bce8eec5ee7cb626c9fcfb75125f81637f9"
+  version "6.5.0"
+  url "https://download.nordugrid.org/packages/nordugrid-arc/releases/#{version}/src/nordugrid-arc-#{version}.tar.gz"
+  sha256 "93a5af2e1e5e767bd17fa0b49ed1f446891e5e7b97b041b0caf523a3cc0633bd"
 
   depends_on "pkg-config" => :build
   depends_on "gettext"
@@ -22,7 +23,6 @@ class NordugridArc < Formula
   end
 
   test do
-    (testpath/"foo").write("data")
-    system "#{bin}/arccp", "foo", "bar"
+    system "#{bin}/arcproxy", "-"
   end
 end
