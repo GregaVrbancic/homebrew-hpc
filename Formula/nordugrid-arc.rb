@@ -11,6 +11,7 @@ class NordugridArc < Formula
   depends_on "glibmm"
   depends_on "libxml2"
   depends_on "libxmlsec1"
+  depends_on "globus-toolkit"
 
   def install
     ENV.cxx11
@@ -18,6 +19,9 @@ class NordugridArc < Formula
                           "--disable-swig",
                           "--prefix=#{prefix}"
     system "make", "install"
+
+    bins = Dir["#{libexec}/bin/*"].select { |f| File.executable? f }
+    bin.write_exec_script bins
   end
 
   test do
