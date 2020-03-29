@@ -22,4 +22,9 @@ Feel free to contribute pull requests for additional applications as well as the
 
 ## Disclaimer
 
-I am not an author of the software available via this homebrew tap. Also, the homebrew formulas available in this repository are tested only on Mac OS Catalina and Arch linux.
+I am not an author of the software available via this homebrew tap. Also, the homebrew formulas available in this repository are tested only on:
+
+- Mac OS Catalina
+- Arch linux
+- Linux Mint
+- MX Linux
