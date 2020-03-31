@@ -9,8 +9,8 @@ cask 'singularity-desktop-beta' do
   pkg "SingularityDesktop-beta-v#{version}.pkg"
 
   uninstall script: {
-		      executable: 'uninstall.tool',
-		      input:      ['Yes'],
-		      sudo:       true,
-		    }
+                      executable: 'uninstall.tool',
+                      input:      ['Yes'],
+                      sudo:       true,
+                    }
 end
