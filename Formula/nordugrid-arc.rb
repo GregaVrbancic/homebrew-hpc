@@ -1,9 +1,9 @@
 class NordugridArc < Formula
   desc "Nordugrid Arc Client"
   homepage "http://www.nordugrid.org/arc/arc6/"
-  version "6.7.0"
+  version "6.6.0"
   url "https://download.nordugrid.org/packages/nordugrid-arc/releases/#{version}/src/nordugrid-arc-#{version}.tar.gz"
-  sha256 "156265ff7dcebe94e61e850ce11584ad70ee25f885bba9277810d8ed2e1ab408"
+  sha256 "bdd3c0ee4ce3f8d1cb75736e0320cdc5211ad4895f1dca6c65bff044e7aa9376"
 
   depends_on "pkg-config" => :build
   depends_on "gettext"
