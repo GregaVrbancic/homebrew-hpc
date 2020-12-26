@@ -14,7 +14,7 @@ The available packages are:
 
 - [nordugrid-arc](http://www.nordugrid.org/arc/arc6/) :point_right: install with: ```brew install nordugrid-arc```
 - [globus-toolkit](https://www.globus.org/toolkit/) :point_right: install with: ```brew install globus-toolkit```
-- [singularity-desktop-beta](https://sylabs.io/singularity-desktop-macos/) :point_right: install with: ```brew cask install singularity-desktop-beta```
+- [singularity-desktop-beta](https://sylabs.io/singularity-desktop-macos/) :point_right: install with: ```brew install --cask singularity-desktop-beta```
 
 ## Contributing
 
