@@ -1,5 +1,5 @@
-class GlobusToolkit < Formula
-  desc "Toolkit used for building grids"
+class GlobusToolkitLegacy < Formula
+  desc "Toolkit used for building grids (adopted from removed homebrew core repository"
   homepage "https://www.globus.org/toolkit/"
   version "6.0.1531931206"
 
