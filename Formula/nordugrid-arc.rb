@@ -11,7 +11,7 @@ class NordugridArc < Formula
   depends_on "glibmm"
   depends_on "libxml2"
   depends_on "libxmlsec1"
-  #depends_on "globus-toolkit"
+  depends_on "globus-toolkit-legacy"
 
   def install
     ENV.cxx11
