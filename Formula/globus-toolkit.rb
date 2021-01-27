@@ -1,9 +1,8 @@
-class GlobusToolkitLegacy < Formula
-  desc "Toolkit used for building grids (adopted from removed homebrew core repository"
+class GlobusToolkit < Formula
+  desc "Toolkit used for building grids"
   homepage "https://www.globus.org/toolkit/"
-  version "6.0.1531931206"
-
-  url "https://downloads.globus.org/toolkit/gt6/stable/installers/src/globus_toolkit-#{version}.tar.gz"
+  # Note: Stable distributions have an even minor version number (e.g. 5.0.3)
+  url "https://downloads.globus.org/toolkit/gt6/stable/installers/src/globus_toolkit-6.0.1531931206.tar.gz"
   sha256 "ef7b127174016627e1e161a99a95a4558b1c47fc0d368c4c3e84320924f14081"
   revision 1
 
